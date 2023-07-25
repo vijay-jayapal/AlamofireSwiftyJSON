@@ -9,14 +9,14 @@ Pod::Spec.new do |s|
   s.documentation_url = 'http://Xinguang.github.io/AlamofireSwiftyJSON/index.html'
   #s.platform     = :ios, '8.0'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.11'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '3.0'
 
   s.requires_arc = true
   s.source_files = 'Source/*.swift'
-  s.dependency 'Alamofire', '~> 4.0'
-  s.dependency 'SwiftyJSON', '~> 4.0'
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON'
   s.frameworks = 'CFNetwork'
 end
